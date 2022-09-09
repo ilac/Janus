@@ -1,0 +1,49 @@
+Dear Ilaria,
+
+here with some info on the ZTF2033 reductions. There is probably a bit
+more to be looked at -- mainly whether I can come up with any
+extinction coefficients, but this will be a good start. I expect to
+update some aspects -- I am not sure the comparisons are the best at
+the moment.
+
+Two nights, 06 and 09 Sept, 2021. run0026 on Sep 6 and run0022 on Sep 9 are
+the science runs.
+
+Several different reductions are here.
+
+
+normal ===> straight aperture photom, with an aperture designed to
+            avoid nearby star
+
+optimal ==> uses a weighted extraction based on a paper by Naylor from a long
+            way back. This is not PSF fitting, but a sort of half-way house.
+            It improves statistical noise sometimes at the expense of
+            systematic.
+
+normal-large -- straight aperture photom, but with large apertures with the
+            aim of getting the full flux of the comparison stars to allow them
+            to be referenced with the standard star. i.e. you need to compare
+            the comparisons from this extraction with a similar "normal-large"
+            extraction of the flux standard. I expect to update these with larger
+            apertures still.
+
+
+XXX.log vs XXX.fits -- contain the same data, but the ASCII version has lots of
+header info that the FITS file doesn't have. The FITS file will be much easier to
+understand however. 
+
+Files like "run0026_002_ccd5.fits" contain a spliced-together version of the data (single data
+array) to make display in ds9 easy. A command like:
+
+  ds9 run0026_ccd2.fits -regions run0026_ccd2.reg -zscale
+
+should display the image along with the apertures which I hope should make it easy to
+identify comparison stars. Target "1" is the science target.
+
+The comparions vary in terms of brightness and how isolated they are from other stars.
+I am hoping to send a revised extraction with many more comparisons than are used at present.
+
+2021-09-09 had the best seeing. Pixel scale = 0.081"/raw pixel, but these data were taken with 3x3 
+binning, i.e. 0.243"/pixel
+
+Tom

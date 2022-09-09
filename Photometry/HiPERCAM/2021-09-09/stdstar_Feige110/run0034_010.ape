@@ -1,0 +1,108 @@
+[
+  "hipercam.MccdAper",
+  [
+    "1",
+    [
+      "hipercam.CcdAper",
+      [
+        "1",
+        {
+          "Comment": "hipercam.Aperture",
+          "x": 535.0160239688252,
+          "y": 713.2698986909343,
+          "rtarg": 65.0,
+          "rsky1": 90.0,
+          "rsky2": 115.0,
+          "ref": false,
+          "mask": [],
+          "extra": [],
+          "link": ""
+        }
+      ]
+    ]
+  ],
+  [
+    "2",
+    [
+      "hipercam.CcdAper",
+      [
+        "1",
+        {
+          "Comment": "hipercam.Aperture",
+          "x": 532.3875265847234,
+          "y": 722.2636754388296,
+          "rtarg": 65.0,
+          "rsky1": 90.0,
+          "rsky2": 115.0,
+          "ref": false,
+          "mask": [],
+          "extra": [],
+          "link": ""
+        }
+      ]
+    ]
+  ],
+  [
+    "3",
+    [
+      "hipercam.CcdAper",
+      [
+        "1",
+        {
+          "Comment": "hipercam.Aperture",
+          "x": 521.7681308597327,
+          "y": 712.1638372103307,
+          "rtarg": 65.0,
+          "rsky1": 90.0,
+          "rsky2": 115.0,
+          "ref": false,
+          "mask": [],
+          "extra": [],
+          "link": ""
+        }
+      ]
+    ]
+  ],
+  [
+    "4",
+    [
+      "hipercam.CcdAper",
+      [
+        "1",
+        {
+          "Comment": "hipercam.Aperture",
+          "x": 520.7884476176739,
+          "y": 703.7762328914415,
+          "rtarg": 65.0,
+          "rsky1": 90.0,
+          "rsky2": 115.0,
+          "ref": false,
+          "mask": [],
+          "extra": [],
+          "link": ""
+        }
+      ]
+    ]
+  ],
+  [
+    "5",
+    [
+      "hipercam.CcdAper",
+      [
+        "1",
+        {
+          "Comment": "hipercam.Aperture",
+          "x": 518.5391930460969,
+          "y": 710.2589077061959,
+          "rtarg": 65.0,
+          "rsky1": 90.0,
+          "rsky2": 115.0,
+          "ref": false,
+          "mask": [],
+          "extra": [],
+          "link": ""
+        }
+      ]
+    ]
+  ]
+]
