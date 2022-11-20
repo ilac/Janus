@@ -1,0 +1,1 @@
+Photometric light curves from the quintuple-beam high-speed imager HiPERCAM on the Gran Telescopio Canarias and from the high-speed imaging photometer CHIMERA on the Hale telescope.

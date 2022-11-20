@@ -1,1 +1,1 @@
-Public repository for data and code for the paper entitled "A rotating white dwarf with two faces"
+Public repository for the data obtained for the paper entitled "A rapidly spinning white dwarf exhibits extreme composition variations over its surface".

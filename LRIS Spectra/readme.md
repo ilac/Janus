@@ -1,0 +1,2 @@
+Reduced LRIS spectra for the white dwarf Janus, taken over several nights. 
+The files that begin with 'celsb' are from the blue arm of LRIS, while the files that begin with 'celsr' are from the red arm.
